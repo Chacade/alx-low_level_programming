@@ -1,7 +1,6 @@
-#include "main."
-
+#include "main.h"
 /**
- * _strcat - funtion that copies s string
+ * _strncpy - copy a string
  * @dest: input value
  * @src: input value
  * @n: input value
@@ -11,9 +10,8 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int j;
+
 	j = 0;
-
-
 	while (j < n && src[j] != '\0')
 	{
 		dest[j] = src[j];
@@ -24,6 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[j] = '\0';
 		j++;
 	}
+
 	return (dest);
 }
 
