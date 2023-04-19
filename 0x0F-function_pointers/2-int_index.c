@@ -1,10 +1,10 @@
 #include "function_pointers.h"
-#include <stdio.h>
+
 /**
- * return index place if comparison = true, else -1
+ * int_index - return index place if comparison = true, else -1
  * @size: number of elements in the array
  * @array: array
- * @cmp: function does not return 0
+ * @cmp:  pointer to func of one of the 3 in main
  *
  * Return: 0
  */
