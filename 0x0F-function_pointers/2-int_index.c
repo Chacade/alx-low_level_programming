@@ -6,7 +6,7 @@
  * @array: array
  * @cmp: function does not return 0
  *
- * Return: void
+ * Return: 0
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
